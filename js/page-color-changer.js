@@ -17,10 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     redColorSlider.addEventListener("input", changeBackgroundColor);
     blueColorSlider.addEventListener("input", changeBackgroundColor);
     greenColorSlider.addEventListener("input", changeBackgroundColor);
-    
 
-
-
-
-    
+    // Initial background color setting
+    changeBackgroundColor();     
 });
